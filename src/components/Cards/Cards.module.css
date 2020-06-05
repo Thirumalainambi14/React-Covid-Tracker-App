@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between !important;
+  margin: 3% 0;
+}
+
+.card {
+  width: 25%;
+  margin: 0 2% !important;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5) !important;
+}
+
+.infected {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.7);
+}
+
+.recovered {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.7);
+}
+
+.deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.7);
+}
